@@ -20,7 +20,12 @@
     "snapshotSerializers": ["enzyme-to-json/serializer"]
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "globals": {
+      "mount": true,
+      "shallow": true,
+      "render": true
+    }
   },
   "browserslist": {
     "production": [

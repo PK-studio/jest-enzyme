@@ -1,5 +1,4 @@
 import React from 'react'
-import { mount } from 'enzyme'
 import { Each } from './each'
 
 describe('Test each method', () => {

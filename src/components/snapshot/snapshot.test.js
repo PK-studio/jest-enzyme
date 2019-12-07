@@ -1,5 +1,4 @@
 import React from 'react'
-import { mount } from 'enzyme'
 import { Snapshot } from './snapshot'
 
 describe('Snapshot', () => {
