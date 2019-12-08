@@ -1,14 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Snapshot Renders component with switch off feature 1`] = `
-<Snapshot
-  isFeatureToggled={false}
->
+<Snapshot>
   <h1>
     Test name: snapshot
   </h1>
   <p>
     This time feature is switch off
   </p>
+  <button
+    data-test-id="snapshot-button"
+    href="#"
+    onClick={[Function]}
+  />
 </Snapshot>
 `;
